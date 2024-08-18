@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>𝓥𝓮𝓷𝓴𝓪𝓽𝓪 𝓢𝓪𝓶𝓮𝓮𝓻 𝓜𝓾𝓵𝓪𝓿𝓮𝓮𝓼𝓪𝓵𝓪</title>
+    <meta name="description" content="Portfolio Template for Developer" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+
+    <style>
+      .about__content-title {
+        color: lightgreen; /* Light green color for section titles */
+      }
+    
+      .skills__skill a {
+        color: black; /* Black color for text in the skill items */
+        text-decoration: none; /* Remove underline from links */
+      }
+    
+      .skills__skill a:hover {
+        color: brown; /* Violet color on hover for skill items */
+      }
+    
+      .skills__skill {
+        color: brown; /* Brown color for skill items text */
+      }
+    
+      .intenships .skills__skill a {
+        color: white; /* Black color for text in the internship items */
+      }
+    
+      .intenships .skills__skill a:hover {
+        color: brown; /* Violet color on hover for internship items */
+      }
+    
+      .intenships .skills__skill {
+        color:brown; /* Brown color for internship items text */
+      }
+    </style>
+    
+
+
+
+
+
+
+
+
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+            src="./assets/png/SAMEER.jpg"
+              alt="SAMEER"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">SAMEER</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hey, My name is Sameer</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            Welcome to my portfolio! I'm Venkata Sameer, a passionate Software Engineer dedicated to crafting innovative and efficient solutions. Dive in to explore my work and let's connect to create something extraordinary!
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="./#projects" class="btn btn--bg">Projects</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/venkatasameer" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          
+          </a>
+        </div>
+        <div class="home-hero__social">
+          
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="https://www.instagram.com/venkata_sameer?igsh=cHphZzRjc3ZoaXBi"
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+          >
+            <img
+              src="./assets/png/insta-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+        <div class="home-hero__social">
+          <a href="#" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/yt-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+       I'm a full-stack developer specializing in Java, dedicated to creating robust and scalable digital solutions.
+
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Hey! It's
+                <strong>Sameer</strong>
+                and I'm a <strong> JAVA FULL STACK Developer </strong> located in
+                Vizag. I've done
+                Banking System project as part of my academic coursework. Additionally, I developed a portfolio website and a college website as extracurricular activities, demonstrating my commitment to honing my skills beyond the classroom.
+              </p>
+              <p class="about__content-details-para">
+                I’m , a dedicated Software Engineer with a strong background in problem-solving, web development, and programming. Proficient in both front-end and back-end technologies, I bring hands-on experience with a variety of programming languages and frameworks. My journey has been marked by a commitment to continuous learning and a passion for innovation
+               
+              </p>
+            </div>
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">EDUCATION:</h3>
+            <div class="intenships">
+              <div class="skills__skill">NSRIT(BTECH CSE)- CGPA</div>
+              <div class="skills__skill">SAI GANAPATHI(DIPLOMA CSE)-9.2 CGPA</div>
+              <div class="skills__skill">Sri Chaitanya(SSC)-9.8 CGPA</div>
+            </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">Intenships:</h3>
+            <div class="intenships">
+              <div class="skills__skill"><a href="#" target="_blank">MILLENIUM SOFTWARE SOLUTIONS </a><small>(Dur-6months)</small></div>
+              <div class="skills__skill"><a href="#" target="_blank">INTERN PE</a> <small>(Dur-1months)</small></div>
+              <div class="skills__skill"><a href="#" target="_blank">EI Systems</a> <small>(Dur-2months)</small></div>
+            </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills:</h3>
+            <div class="skills">
+              <div class="skills__skill"><a href="#" target="_blank">FULL STACK DEVELOPMENT</a></div>
+              <div class="skills__skill"><a href="https://www.hackerrank.com/certificates/11443537749e" target="_blank">JAVA</a></div>
+              <div class="skills__skill"><a href="https://www.hackerrank.com/certificates/61f83faf37f7" target="_blank">SQL</a></div>
+              <div class="skills__skill"><a href="https://www.mygreatlearning.com/certificate/CRXYMUFG" target="_blank"> UI/UX</a></div>
+              <div class="skills__skill"><a href="https://cloudcounselage.graphy.com/verify-certificate?serialno=IAC-IT8-230713" target="_blank">GIT</a></div>
+              <div class="skills__skill"><a href="https://www.mygreatlearning.com/certificate/MXZNOYED" target="_blank">PYTHON</a></div>
+              <div class="skills__skill"><a href="#" target="_blank">Problem Solving</a></div>
+              <div class="skills__skill"><a href="https://www.guvi.in/share-certificate/xC7L961WPV190o21R1" target="_blank">CHATGPT</a></div>
+              <div class="skills__skill"><a href="https://cloudcounselage.graphy.com/verify-certificate?serialno=IAC-IT4-230854" target="_blank">DATA & ANALYTICS</a></div>
+              <div class="skills__skill"><a href="https://cloudcounselage.graphy.com/verify-certificate?serialno=IAC-IT7-230725" target="_blank">CLOUD COMPUTING</a></div>
+              <div class="skills__skill"><a href="https://cloudcounselage.graphy.com/verify-certificate?serialno=IAC-IT5-230659" target="_blank">PRODUCT DEVELOPMENT</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            I have undertaken various computer science projects that showcase my skills in software development and problem-solving.
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/INTERNET_BANKING.png"
+                alt="./assets/jpeg/project-mockup-example.jpeg"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">INTERNET BANKING USING PHP+SQL</h3>
+              <p class="projects__row-content-desc">
+                The Internet Banking project,  provides users with secure access to their bank accounts online. It includes features like fund transfers, account management, and transaction history, all built with a focus on security and Reliable,efficient,fast. 
+              </p>
+              <a
+                href="https://github.com/venkatasameer/internetbanking"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Source COde</a >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/college_website.png"
+                alt="./assets/jpeg/project-mockup-example.png"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">College website</h3>
+              <p class="projects__row-content-desc">
+                The College Website project serves as a comprehensive platform for students, faculty, and administrators. It features easy navigation, up-to-date information, and secure access to resources like academic results and schedules. The site enhances communication and streamlines administrative tasks within the college.
+              </p>
+              <a
+                href="https://saiganapathipolytechnic.com/"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Live</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/portifolio.png"
+                alt="./assets/jpeg/project-mockup-example.jpeg"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Portfolio</h3>
+              <p class="projects__row-content-desc">
+               My Personal Portfolio showcases my skills, projects, and professional journey in a clean, user-friendly design. It highlights my expertise in web development, including projects like a college website and banking system. The portfolio serves as a dynamic space to connect with potential collaborators and employers.
+              </p>
+              <a
+                href="https://venkatasameer.github.io/Portfolio/"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >LIVE</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            
+          
+          <p>If you have any questions or just want to say hello, feel free to reach out! I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Let's connect!</p>
+          
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form action="https://formspree.io/f/xyzgdyby" method="POST" class="contact__form">
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="email"
+                class="contact__form-input"
+                name="_replyto"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/venkatasameer">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+             
+              
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/venkata_sameer?igsh=cHphZzRjc3ZoaXBi">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Venkata Sameer</h4>
+            <p class="main-footer__short-desc">
+              <P style="color: rgb(0, 255, 238); background-color: rgb(41, 41, 53); padding: 5px; border-radius: 3px; display: inline;">REACH ME</P>:<BR>
+             Email: <a href="mailto:mulaveesalavenkatasameer08@gmail.com">mulaveesalavenkatasameer08@gmail.com</a><br>
+             Phone: <a href="tel:+91 9493940276">9493940276</a><br>
+             Address: Vizag,AP.
+
+            </p>
+          </div>
+        </div>
+          
+          <div class="main-footer__lower">
+            &copy All Rights are Reserved ,Made by
+            <a rel="noreferrer" target="_blank" href="#"
+              >Venkata_Sameer</a
+            >
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
